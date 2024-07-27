@@ -1,13 +1,14 @@
+import Body from "@/components/Body";
 
-import './App.css'
+
 
 function App() {
 
   return (
-    <main>
-   
-    </main>
+    <>
+      <Body />
+    </>
   )
 }
 
-export default App
+export default App;
