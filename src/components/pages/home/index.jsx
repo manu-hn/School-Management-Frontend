@@ -15,12 +15,12 @@ const HomePage = () => {
                 <p className="text-justify">{INFO}</p>
 
                 <Button classNames="bg-sky-500 px-6 py-3 rounded-lg text-white">
-                    <Link className="" to={'/login'}>Login to Continue</Link>
+                    <Link className="" to={'/choose'}>Login to Continue</Link>
                 </Button>
 
                 <div className="flex justify-around">
                     <p>Don&apos;t have an account?</p>
-                    <Link className="text-blue-600 underline-offset-4 underline mx-2" to={'/sign-up'}>Sign Up</Link>
+                    <Link className="text-blue-600 underline-offset-4 underline mx-2" to={'/Adminregister'}>Sign Up</Link>
                 </div>
             </div>
             <div className="w-full flex justify-center items-center ">
